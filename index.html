@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boostrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+  <!-- barra de navegacion -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://images.icon-icons.com/128/PNG/256/world_cup_2014_brasil_flag_flags_20410.png" alt="Logo"
+          width="40" height="34" class="Copa Mundial">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link fs-6 py-0 my-0" href="#"
+              style="color: rgb(255, 179, 0); font-weight: bold; line-height: 1;">
+              COPA MUNDIAL<br>FIFA 2026
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <h5><span class="badge text-bg-secondary">Inicio</span> </h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Partidos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item font-weight: bold; line-height: 1;" href="#">Horarios</a></li>
+              <li><a class="dropdown-item" href="#">Fechas</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+          <button class="btn btn-outline-warning" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Imagen y texto - Header -->
+
+  <header class="position-relative bg-dark text-white min-vh-100 d-flex align-items-center overflow-hidden">
+
+    <div class="position-absolute top-0 end-0 w-100 h-100 m-0 p-0 opacity-50">
+      <img src="https://wallpapers.com/images/hd/soccer-ball-background-7hmi854o62h8pspe.jpg" alt="Fútbol"
+        class="w-100 h-100 object-fit-cover object-top-end">
+
+    </div>
+
+    <div class="container position-relative py-5" style="z-index: 2;">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <p class="text-warning fw-bold text-uppercase small">—— 11 JUNIO – 19 JULIO 2026 —— </p>
+          <h1 class="display-3 fw-bolder text-uppercase my-3">
+            Copa Mundial <br>
+            <span class="text-warning">FIFA 2026</span>
+          </h1>
+          <p class="text-white mb-4" style="max-width: 450px;">
+            48 selecciones. 16 ciudades sede. 104 partidos. El torneo más grande en la historia del fútbol mundial se
+            celebra en Estados Unidos, México y Canadá.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-warning btn-lg px-4 text-white fw-bold">Ver partidos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- contenedores 4 -->
+
+  <section class="bg-dark text-center py-5 border border-white border-opacity-50">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <h2 class="display-5 fw-bold text-warning mb-0 ">48</h2>
+          <small class="text-uppercase text-secondary small fw-semibold">Selecciones</small>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="display-5 fw-bold text-warning mb-0">104</h2>
+          <small class="text-uppercase text-secondary small fw-semibold">Partidos</small>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="display-5 fw-bold text-warning mb-0">16</h2>
+          <small class="text-uppercase text-secondary small fw-semibold">Ciudades Sede</small>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="display-5 fw-bold text-warning mb-0">3</h2>
+          <small class="text-uppercase text-secondary small fw-semibold">Países Anfitriones</small>
+        </div>
+      </div>
+    </div>
+
+  </section>
+    
+  <!-- contenedores 4 -->
+
+
+<div class="container mt-3">
+  <h2 class="display-3 fw-bolder text-uppercase my-3 py-0" >Calendario de Eventos</h2>
+  <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
